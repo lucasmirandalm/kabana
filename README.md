@@ -4,20 +4,30 @@ A modern and responsive landing page for a fictional forest cabin booking servic
 
 Kabana was built as a study project with the main goal of practicing and learning **Tailwind CSS** in a real landing page layout using **HTML**, **Vite**, and **vanilla JavaScript**.
 
+<br/>
+
 ## Live Demo
 
 [View project on Vercel](https://kabana.vercel.app/)
 
+<br/>
+
 ## Preview
 
-![Kabana preview](./assets/kabana.gif)
-![Kabana preview mobile](./assets/kabanamobile.gif)
+<div align="left">
+  <img src="./assets/kabana.gif" alt="Kabana desktop preview" width="650" />
+  <img src="./assets/kabanamobile.gif" alt="Kabana mobile preview" width="220" />
+</div>
+
+<br/>
 
 ## About
 
 Kabana is a landing page designed for a fictional cabin reservation service located in the middle of the forest.
 
 The page focuses on a calm and nature-inspired visual identity, using large images, soft shadows, green tones, elegant typography, responsive sections, and simple interactions.
+
+<br/>
 
 ## Built With
 
@@ -28,6 +38,8 @@ The page focuses on a calm and nature-inspired visual identity, using large imag
 - Google Fonts
   - DM Sans
   - DM Serif Text
+ 
+  - <br/>
 
 ## Features
 
@@ -39,6 +51,8 @@ The page focuses on a calm and nature-inspired visual identity, using large imag
 - Reservation form
 - Mobile navigation menu
 - Simple form validation with JavaScript
+
+<br/>
 
 ## Project Structure
 
@@ -52,6 +66,8 @@ kabana/
     ├── main.js
     └── style.css
 ```
+
+<br/>
 
 ## Getting Started
 
@@ -87,6 +103,8 @@ npm run dev
 http://localhost:5173
 ```
 
+<br/>
+
 ## Scripts
 
 ```bash
@@ -106,6 +124,8 @@ npm run preview
 ```
 
 Previews the production build locally.
+
+<br/>
 
 ## Deployment
 
