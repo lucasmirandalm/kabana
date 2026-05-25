@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kabana | Forest Cabin Reservations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,800;9..40,900&family=DM+Serif+Text:ital@0;1&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="bg-cream font-sans text-slate-900">
+  <header class="absolute left-0 top-0 z-10 w-full text-white">
+    <div class="mx-auto w-full max-w-[1120px] px-5">
+      <div class="flex items-center justify-between py-6">
+        <a href="#" class="flex items-center gap-3">
+          <span class="grid size-11 place-items-center rounded-2xl bg-white/15 font-serif text-2xl">
+            K
+          </span>
+
+          <span class="text-xl font-black tracking-tight">
+            Kabana
+          </span>
+        </a>
+
+        <nav class="hidden items-center gap-8 text-sm font-bold text-white/75 md:flex">
+          <a href="#cabins" class="transition hover:text-white">Cabins</a>
+          <a href="#experiences" class="transition hover:text-white">Experiences</a>
+          <a href="#reservation" class="transition hover:text-white">Book</a>
+        </nav>
+
+        <a href="#reservation"
+          class="hidden rounded-full bg-sunleaf px-5 py-2.5 text-sm font-black text-forest transition hover:bg-lime-200 md:inline-flex">
+          Check dates
+        </a>
+
+        <button
+          class="grid size-11 place-items-center rounded-2xl border border-white/20 bg-white/10 text-xl md:hidden">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative min-h-screen overflow-hidden bg-forest pt-32 pb-20 text-white">
+      <img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1600&q=80" alt=""
+        class="absolute inset-0 h-full w-full object-cover opacity-30" />
+
+      <div class="absolute inset-0 bg-gradient-to-br from-forest/95 via-leaf/85 to-moss/85"></div>
+
+      <div class="absolute -left-28 -top-28 h-80 w-80 rounded-full bg-sunleaf/25 blur-3xl"></div>
+      <div class="absolute -bottom-32 -right-28 h-96 w-96 rounded-full bg-emerald-400/25 blur-3xl"></div>
+
+      <div class="relative z-10 mx-auto grid w-full max-w-[1120px] items-center gap-14 px-5 lg:grid-cols-[1.1fr_0.9fr]">
+        <div>
+          <span
+            class="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-bold text-lime-100 backdrop-blur-md">
+            Private retreats in the heart of the forest
+          </span>
+
+          <h1 class="mt-6 max-w-3xl font-serif sm:text-5xl leading-[0.9] tracking-[-0.055em] md:text-7xl lg:text-6xl">
+            Disconnect from the world and wake up among the trees.
+          </h1>
+
+          <p class="mt-6 text-white/75 leading-8">
+            Book cozy cabins surrounded by trails, fresh air, a fireplace,
+            silence, and the perfect view to truly slow down.
+          </p>
+
+          <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+            <a href="#reservation"
+              class="inline-flex items-center justify-center rounded-full bg-sunleaf px-7 py-4 font-black text-forest shadow-xl shadow-black/20 transition hover:-translate-y-1 hover:bg-lime-200">
+              Book my cabin
+            </a>
+
+            <a href="#cabins"
+              class="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/10 px-7 py-4 font-black text-white backdrop-blur-md transition hover:-translate-y-1 hover:bg-white/15">
+              Explore cabins
+            </a>
+          </div>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div
+            class="overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-3 backdrop-blur-xl sm:translate-y-10">
+            <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80"
+              alt="Wooden cabin surrounded by trees" class="h-72 w-full rounded-[1.5rem] object-cover" />
+          </div>
+
+          <div class="overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-3 backdrop-blur-xl">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+              alt="Green landscape with a cabin in the distance" class="h-72 w-full rounded-[1.5rem] object-cover" />
+          </div>
+
+          <div class="rounded-[2rem] bg-sunleaf p-7 text-forest shadow-2xl shadow-black/25 sm:col-span-2">
+            <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <span class="text-xs font-black uppercase tracking-[0.25em] text-moss">
+                  Starting at
+                </span>
+
+                <strong class="mt-2 block text-3xl font-black tracking-tight">
+                  R$ 389/night
+                </strong>
+              </div>
+
+              <div class="grid grid-cols-3 gap-5 text-center">
+                <div>
+                  <strong class="block text-2xl font-black">12</strong>
+                  <span class="text-xs font-bold text-moss">cabins</span>
+                </div>
+
+                <div>
+                  <strong class="block text-2xl font-black">4.9</strong>
+                  <span class="text-xs font-bold text-moss">rating</span>
+                </div>
+
+                <div>
+                  <strong class="block text-2xl font-black">24h</strong>
+                  <span class="text-xs font-bold text-moss">support</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cabins" class="relative bg-cream py-[200px]">
+      <div class="relative w-full max-w-[1120px] mx-auto px-5">
+        <span class="text-xs font-black uppercase tracking-[0.28em] text-moss">Our Cabins</span>
+
+        <div class="flex flex-col justify-between gap-6 lg:flex-row">
+          <h2 class="font-serif text-6xl text-forest">Choose the perfect retreat for your pause.</h2>
+          <p class="self-end text-gray-500 leading-8">All cabins include a balcony, queen bed, private bathroom,
+            compact kitchen, and forest views.</p>
+        </div>
+
+        <div class="mt-12 grid gap-6 grid-cols-1 lg:grid-cols-3">
+          <article
+            class="group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-forest/10 transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/15">
+            <div class="h-72 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+                alt="Aurora Cabin in the forest"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            </div>
+
+            <div class="p-7">
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="font-serif text-3xl leading-none tracking-[-0.03em] text-forest">
+                  Aurora Cabin
+                </h3>
+
+                <span class="shrink-0 rounded-full bg-green-100 px-3 py-2 text-sm font-black text-moss">
+                  R$ 389
+                </span>
+              </div>
+
+              <p class="mt-4 leading-7 text-slate-500">
+                Perfect for couples, with an indoor fireplace and a suspended balcony.
+              </p>
+
+              <a href="#reservation" class="mt-6 inline-flex font-black text-moss transition hover:text-forest">
+                I want this cabin →
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-forest/10 transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/15">
+            <div class="h-72 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80"
+                alt="Cedar Cabin near a lake"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            </div>
+
+            <div class="p-7">
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="font-serif text-3xl leading-none tracking-[-0.03em] text-forest">
+                  Cedar Cabin
+                </h3>
+
+                <span class="shrink-0 rounded-full bg-green-100 px-3 py-2 text-sm font-black text-moss">
+                  R$ 459
+                </span>
+              </div>
+
+              <p class="mt-4 leading-7 text-slate-500">
+                More space, an outdoor bathtub, and panoramic views of the valley.
+              </p>
+
+              <a href="#reservation" class="mt-6 inline-flex font-black text-moss transition hover:text-forest">
+                I want this cabin →
+              </a>
+            </div>
+          </article>
+
+          <article
+            class="group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-forest/10 transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-forest/15">
+            <div class="h-72 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80"
+                alt="Nest Cabin in a natural landscape"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            </div>
+
+            <div class="p-7">
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="font-serif text-3xl leading-none tracking-[-0.03em] text-forest">
+                  Nest Cabin
+                </h3>
+
+                <span class="shrink-0 rounded-full bg-green-100 px-3 py-2 text-sm font-black text-moss">
+                  R$ 529
+                </span>
+              </div>
+
+              <p class="mt-4 leading-7 text-slate-500">
+                Ideal for small families, with a spacious deck and equipped kitchen.
+              </p>
+
+              <a href="#reservation" class="mt-6 inline-flex font-black text-moss transition hover:text-forest">
+                I want this cabin →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="bg-forest py-24 text-white">
+      <div class="mx-auto grid w-full max-w-[1120px] gap-14 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+        <div>
+          <span class="text-xs font-black uppercase tracking-[0.28em] text-sunleaf">
+            Experiences
+          </span>
+
+          <h2 class="mt-4 max-w-xl font-serif text-5xl leading-[0.95] tracking-[-0.04em] text-white md:text-6xl">
+            More than a stay. A full immersion in nature.
+          </h2>
+
+          <p class="mt-6 max-w-md text-lg leading-8 text-white/65">
+            Every detail was designed to help you breathe better, sleep better,
+            and return home with a lighter mind.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-[0.85fr_1.15fr]">
+          <div class="grid gap-5">
+            <article
+              class="group relative isolate min-h-[250px] overflow-hidden rounded-[2rem] bg-leaf shadow-2xl shadow-black/25">
+              <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80"
+                alt="Person hiking on a forest trail"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/25 to-transparent opacity-0 shadow-[inset_0_-100px_90px_rgba(0,0,0,0.65)] transition duration-300 group-hover:opacity-100">
+              </div>
+
+              <div
+                class="absolute inset-x-6 bottom-6 translate-y-5 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                <h3 class="font-serif text-4xl leading-none tracking-[-0.04em]">
+                  Mist Trail
+                </h3>
+
+                <p class="mt-2 max-w-xs leading-7 text-white/75">
+                  Walk among tall trees, quiet paths, and hidden viewpoints.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="group relative isolate min-h-[250px] overflow-hidden rounded-[2rem] bg-leaf shadow-2xl shadow-black/25">
+              <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=900&q=80"
+                alt="Breakfast table outdoors"
+                class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/25 to-transparent opacity-0 shadow-[inset_0_-100px_90px_rgba(0,0,0,0.65)] transition duration-300 group-hover:opacity-100">
+              </div>
+
+              <div
+                class="absolute inset-x-6 bottom-6 translate-y-5 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                <h3 class="font-serif text-4xl leading-none tracking-[-0.04em]">
+                  Forest Breakfast
+                </h3>
+
+                <p class="mt-2 max-w-xs leading-7 text-white/75">
+                  Start the day with local flavors and a view of the trees.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <article
+            class="group relative isolate min-h-[520px] overflow-hidden rounded-[2rem] bg-leaf shadow-2xl shadow-black/25">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+              alt="Dense forest lit by natural light"
+              class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/25 to-transparent opacity-0 shadow-[inset_0_-120px_110px_rgba(0,0,0,0.7)] transition duration-300 group-hover:opacity-100">
+            </div>
+
+            <div
+              class="absolute inset-x-7 bottom-7 translate-y-5 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+              <h3 class="font-serif text-5xl leading-none tracking-[-0.04em]">
+                Green Immersion
+              </h3>
+
+              <p class="mt-3 max-w-sm text-lg leading-8 text-white/75">
+                A deep experience to slow down, breathe, and reconnect.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-cream py-24">
+      <div class="mx-auto w-full max-w-[1120px] px-5">
+        <div class="grid overflow-hidden rounded-[2.5rem] bg-green-100 shadow-2xl shadow-forest/15 lg:grid-cols-2">
+          <div class="relative min-h-[360px] lg:min-h-[460px]">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+              alt="Natural forest view" class="absolute inset-0 h-full w-full object-cover" />
+
+            <div class="absolute inset-0 bg-gradient-to-t from-forest/60 via-forest/15 to-transparent"></div>
+          </div>
+
+          <div class="flex flex-col justify-center p-7 md:p-12 lg:p-14">
+            <span class="text-xs font-black uppercase tracking-[0.28em] text-moss">
+              Why choose us
+            </span>
+
+            <h2 class="mt-4 font-serif text-5xl leading-[0.95] tracking-[-0.04em] text-forest md:text-6xl">
+              Hotel-level comfort with a forest soul.
+            </h2>
+
+            <div class="mt-9 grid gap-6">
+              <div class="flex gap-4">
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-forest font-black text-sunleaf">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-lg font-black text-forest">
+                    Complete privacy
+                  </h3>
+
+                  <p class="mt-1 leading-7 text-slate-500">
+                    Cabins are spaced apart to create a calm and private experience.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-forest font-black text-sunleaf">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-lg font-black text-forest">
+                    Simple check-in
+                  </h3>
+
+                  <p class="mt-1 leading-7 text-slate-500">
+                    Self check-in, fast communication, and support throughout your stay.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-forest font-black text-sunleaf">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-lg font-black text-forest">
+                    Nature with comfort
+                  </h3>
+
+                  <p class="mt-1 leading-7 text-slate-500">
+                    Wi-Fi, hot water, compact kitchen, and premium bedding.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="bg-cream-dark py-24">
+      <div class="mx-auto grid w-full max-w-[1120px] gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+        <div>
+          <span class="text-xs font-black uppercase tracking-[0.28em] text-moss">
+            Book now
+          </span>
+
+          <h2 class="mt-4 font-serif text-5xl leading-[0.95] tracking-[-0.04em] text-forest md:text-6xl">
+            Ready for your next forest escape?
+          </h2>
+
+          <p class="mt-6 max-w-xl text-lg leading-8 text-slate-500">
+            Fill out the form and our team will send available options,
+            final prices, and reservation details.
+          </p>
+
+          <div class="mt-8 rounded-[2rem] bg-forest p-7 text-white shadow-2xl shadow-forest/20">
+            <span class="block text-3xl font-black tracking-tight">
+              15% off
+            </span>
+
+            <p class="mt-3 leading-7 text-white/70">
+              For reservations made at least 30 days in advance.
+            </p>
+          </div>
+        </div>
+
+        <form id="reservationForm" class="rounded-[2.5rem] bg-white p-7 shadow-2xl shadow-forest/15 md:p-10">
+          <div class="grid gap-5 md:grid-cols-2">
+            <div class="flex flex-col gap-2">
+              <label for="name" class="text-sm font-black text-forest">
+                Name
+              </label>
+
+              <input type="text" id="name" placeholder="Your name" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition placeholder:text-slate-400 focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="email" class="text-sm font-black text-forest">
+                Email
+              </label>
+
+              <input type="email" id="email" placeholder="you@email.com" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition placeholder:text-slate-400 focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="checkin" class="text-sm font-black text-forest">
+                Check-in
+              </label>
+
+              <input type="date" id="checkin" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="checkout" class="text-sm font-black text-forest">
+                Check-out
+              </label>
+
+              <input type="date" id="checkout" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="guests" class="text-sm font-black text-forest">
+                Guests
+              </label>
+
+              <select id="guests" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10">
+                <option value="">Select</option>
+                <option value="1 guest">1 guest</option>
+                <option value="2 guests">2 guests</option>
+                <option value="3 guests">3 guests</option>
+                <option value="4 guests">4 guests</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="cabin" class="text-sm font-black text-forest">
+                Cabin
+              </label>
+
+              <select id="cabin" required
+                class="rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10">
+                <option value="">Choose a cabin</option>
+                <option value="Aurora Cabin">Aurora Cabin</option>
+                <option value="Cedar Cabin">Cedar Cabin</option>
+                <option value="Nest Cabin">Nest Cabin</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-2 md:col-span-2">
+              <label for="message" class="text-sm font-black text-forest">
+                Message
+              </label>
+
+              <textarea id="message" placeholder="Tell us if you want anything special during your stay..."
+                class="min-h-32 resize-y rounded-2xl border border-forest/10 bg-green-50/60 px-4 py-4 outline-none transition placeholder:text-slate-400 focus:border-green-500 focus:bg-white focus:ring-4 focus:ring-green-500/10"></textarea>
+            </div>
+          </div>
+
+          <button type="submit"
+            class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-sunleaf px-7 py-4 font-black text-forest transition hover:-translate-y-1 hover:bg-lime-200">
+            Send reservation request
+          </button>
+
+          <p id="formMessage" class="mt-5 hidden rounded-2xl bg-green-100 p-4 font-bold leading-7 text-leaf"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-forest py-8 text-white/70">
+      <div
+        class="mx-auto flex w-full max-w-[1120px] flex-col gap-4 px-5 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <p>
+          <strong class="text-white">Kabana</strong> — forest cabin reservations.
+        </p>
+
+        <p>
+          Made for those who need to breathe.
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

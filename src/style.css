@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", Arial, Helvetica, sans-serif;
+  --font-serif: "DM Serif Text", Georgia, serif;
+
+  --color-cream: #f4f7ef;
+  --color-cream-dark: #e8f1dc;
+  --color-forest: #052e1f;
+  --color-leaf: #064e3b;
+  --color-moss: #166534;
+  --color-sunleaf: #bef264;
+}
